@@ -5,19 +5,15 @@ def main():
     y = int(input("y > "))
     
     print("%d / %d = %0.3f" % (x, y, divide(x, y)))
-    
-    
+ 
 def add(a, b):
     return a + b
-    
-    
-# TODO: divide() 함수 정의
+
 def divide(x,y):
     if y == 0:
         print("Error: cannot divide by zero.")
     else:
         return x/y
-
 
 if __name__ == "__main__":
     main()
